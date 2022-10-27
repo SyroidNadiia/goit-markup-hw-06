@@ -424,9 +424,15 @@ img {
 }
 
 .form-field-checkbox {
-  position: relative;
   margin-bottom: 30px;
 }
+
+.form-label-checkbox {
+  padding-left: 36px;
+  line-height: 1.71;
+  position: relative;
+}
+
 .form-checkbox {
   position: absolute;
   white-space: nowrap;
@@ -463,15 +469,11 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.form-label-checkbox {
-  padding-left: 36px;
-  line-height: 1.71;
-}
-
 .form-checkbox:checked + .check-icon {
   border-color: transparent;
   background-color: var(--accent-color);
   background-image: url('../images/icon-check.svg');
+  background-repeat: no-repeat;
   background-size: contain;
   background-origin: border-box;
 }
