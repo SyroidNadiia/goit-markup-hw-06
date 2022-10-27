@@ -468,13 +468,25 @@
           </div>
 
           <div class="form-field">
-            <label for="user_comment">Коментар</label>
-            <textarea name="user_comment" id="user_comment" placeholder="Введіть текст"></textarea>
+            <label class="form-label" for="user_comment">Коментар</label>
+            <textarea
+              class="form-textarea"
+              name="user_comment"
+              id="user_comment"
+              placeholder="Введіть текст"
+            ></textarea>
           </div>
-          <div class="form-field">
-            <label for="accept"></label>
-            <input type="checkbox" name="accept" value="accept" />Погоджуюся з розсилкою та приймаю
-            <a href="#" class="terms-contract">Умови договору</a>
+
+          <div class="form-field-checkbox">
+            <label class="form-label-checkbox" for="accept"></label>
+            <input class="form-checkbox" type="checkbox" name="accept" value="accept" />Погоджуюся з
+            розсилкою та приймаю
+            <a href="#" class="form-contract">Умови договору</a>
+            <div class="form-icon">
+              <svg class="check-icon" width="16px" height="15px">
+                <use href=""></use>
+              </svg>
+            </div>
           </div>
           <button type="submit" class="button-send-data">Відправити</button>
         </form>
