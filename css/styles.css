@@ -380,8 +380,9 @@ img {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   outline: none;
-
   padding: 12px 12px 12px 42px;
+  cursor: pointer;
+  transition: border-color 250ms var(--time-distribution-function);
 }
 
 .form-input:focus {
@@ -405,6 +406,8 @@ img {
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  cursor: pointer;
+  transition: border-color 250ms var(--time-distribution-function);
 }
 
 .phone-icon {
@@ -412,6 +415,8 @@ img {
   top: 50%;
   left: 12px;
   transform: translateY(-50%);
+
+  transition: fill 250ms var(--time-distribution-function);
 }
 
 .form-control:focus-within .phone-icon {
@@ -466,7 +471,9 @@ img {
   left: 0;
   border: 1px solid var(--title-text-color);
   border-radius: 2px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  transition: background-color 250ms var(--time-distribution-function),
+    background-image 250ms var(--time-distribution-function);
 }
 
 .form-checkbox:checked + .check-icon {
