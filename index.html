@@ -415,7 +415,12 @@
             <b>Підпишіться на розсилку</b>
           </div>
           <form class="email-send">
-            <input type="subscription-email-send" name="email" placeholder="E-mail" />
+            <input
+              class="footer-input"
+              type="subscription-email-send"
+              name="email"
+              placeholder="E-mail"
+            />
             <button type="submit" class="email-button">
               Підписатися
               <svg class="email-icon" width="24px" height="24px">
@@ -441,7 +446,7 @@
             <label class="form-label" for="user_name">Ім'я</label>
             <div class="form-control">
               <input class="form-input" type="text" name="user_name" id="user_name" autofocus />
-              <svg class="person-icon" width="18px" height="18px">
+              <svg class="phone-icon" width="18px" height="18px">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </div>
@@ -478,16 +483,14 @@
           </div>
 
           <div class="form-field-checkbox">
-            <label class="form-label-checkbox" for="accept"></label>
-            <input class="form-checkbox" type="checkbox" name="accept" value="accept" />Погоджуюся з
-            розсилкою та приймаю
-            <a href="#" class="form-contract">Умови договору</a>
-            <div class="form-icon">
-              <svg class="check-icon" width="16px" height="15px">
-                <use href=""></use>
-              </svg>
-            </div>
+            <label class="form-label-checkbox" for="accept">
+              <input class="form-checkbox" type="checkbox" name="accept" value="accept" />
+              <div class="check-icon"></div>
+              Погоджуюся з розсилкою та приймаю
+              <a href="#" class="form-contract">Умови договору</a>
+            </label>
           </div>
+
           <button type="submit" class="button-send-data">Відправити</button>
         </form>
       </div>
