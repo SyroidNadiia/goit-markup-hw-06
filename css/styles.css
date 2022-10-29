@@ -381,7 +381,7 @@ img {
   border-radius: 4px;
   outline: none;
   padding: 12px 12px 12px 42px;
-  cursor: pointer;
+
   transition: border-color 250ms var(--time-distribution-function);
 }
 
@@ -406,7 +406,7 @@ img {
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  cursor: pointer;
+
   transition: border-color 250ms var(--time-distribution-function);
 }
 
@@ -471,6 +471,7 @@ img {
   left: 0;
   border: 1px solid var(--title-text-color);
   border-radius: 2px;
+  cursor: pointer;
 
   transition: background-color 250ms var(--time-distribution-function),
     background-image 250ms var(--time-distribution-function);
